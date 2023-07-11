@@ -156,14 +156,17 @@ figcaption {
     display: flex;
     justify-content: end;
     color: #1f2937;
-    font-size: 28px;
+    font-size: 23px;
     font-weight: bold;
-    padding-right: 80px;
+    padding-right: 20px;
 }
 
 .action-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
 }
 
 .action-row {
@@ -171,7 +174,37 @@ figcaption {
     justify-content: space-around;
     align-items: center;
     background-color: #3882f6;
-    margin: 20px 200px;
+    margin: 20px 180px;
     border-radius: 10px;
-    height: 160px;
+    height: 150px;
+}
+
+
+h3 {
+    color: #e5e7eb;
+    font-size: 25px;
+    margin: 0;
+}
+
+.action-p  {
+    margin: 0;
+    font-weight: 300;
+}
+
+.action-btn {
+    border: 2px solid #e5e7eb;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 8px;
+    padding: 6px 40px;
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0;
+    font-weight: 300;
 }
